@@ -1,0 +1,16 @@
+
+CREATE TABLE `tbl_barang` (
+  `barang_id` int(11) NOT NULL,
+  `barang` varchar(50) NOT NULL,
+  `berat` int(11) NOT NULL,
+  `asal` int(11) NOT NULL,
+  `tujuan` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_barang`
+--
+
+INSERT INTO `tbl_barang` (`barang_id`, `barang`, `berat`, `asal`, `tujuan`) VALUES
+(1, 'sepatu', 2, 55, 14),
+(2, 'sepatus', 2, 21, 14);
